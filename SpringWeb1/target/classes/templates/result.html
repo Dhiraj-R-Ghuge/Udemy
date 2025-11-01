@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html xmlns:th ="http://www.thymeleaf.org">
+<head>
+    <title>Result Page</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <div class="result-box">
+        <h2>Welcome to Spring MVC</h2>
+        <p th:text=" ${alien}" >alien</p>
+        <p th:text="'Welcome to '+ ${course}+' world'" >Greetings</p>
+        <a href="/">Go back to form</a>
+    </div>
+</body>
+</html>
